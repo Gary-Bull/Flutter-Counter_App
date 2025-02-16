@@ -1,16 +1,41 @@
 # counter_app
 
-A new Flutter project.
+Based on the default/starting point Flutter Counter app.
 
-## Getting Started
+Created a minimal Counter app, that increments and decrements the counter, you can also reset the counter to 0.
 
-This project is a starting point for a Flutter application.
+##
 
-A few resources to get you started if this is your first Flutter project:
+For this project, I deleted all the base code and started from scratch.
+Created a pages folder that contains the `counter_page.dart` (`lib/pages/counter_page.dart`) file that is a StatefulWidget.
+In here I created a private variable and also private methods that increment, decrement and reset the counter variable. 
+This page consists of the following widgets - 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Scaffold
+- Center
+- Column
+- Text
+- Row
+- ElevatedButton
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In the `main.dart` file, I pass the `CounterPage` stateful widget.
+
+This is how the counter app looks like on start up - 
+
+![image](https://github.com/user-attachments/assets/1f0f92a1-4f0b-4703-bed3-404d883a8e21)
+
+
+After you've pressed/clicked the increment counter button - 
+
+![image](https://github.com/user-attachments/assets/db4a62a3-838f-4023-8fcb-f829f34e70d2)
+
+
+After you've pressed/clicked the decrement counter button - 
+
+![image](https://github.com/user-attachments/assets/aad0ba0e-21a8-4951-8626-2d0f0845d634)
+
+
+After you've pressed/clicked the reset counter button - 
+
+![image](https://github.com/user-attachments/assets/c99e9632-ef7d-41f3-bc41-2623009c6669)
+
